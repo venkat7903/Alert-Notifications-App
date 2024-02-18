@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.alert-notifications-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sub-alert-notifications-container {
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-title-container {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.title-desc-container {
+  margin-left: 14px;
+}
+
+.notification-status {
+  margin: 0;
+}
+
+.notification-status {
+  color: #2dca73;
+  font-size: 24px;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
